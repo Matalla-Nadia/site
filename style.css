@@ -1,0 +1,89 @@
+
+body, html{
+margin:0px;
+padding:0px;
+font-family:'Nunito', sans-serif;
+}
+
+.header{
+	height: 450px;
+	width: 100%;
+	position: absolute;
+
+}
+
+.header_texture{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0; left:0;
+	background: url('startup.png') center no-repeat;
+	background-size: cover;
+
+}
+/*
+.header_mask{
+	position: absolute;
+	bottom: 0;
+	background: 0 0;
+	height: 42px;
+	width: 100%;
+	z-index: 10;
+}*/
+
+.header_navbar{
+	width: 100%;
+	height: 80px;
+	display:flex;
+	flex-direction: row;
+	justify-content:space-between;
+	align-items: center;
+}
+
+
+.header_slogan{
+	text-align: center;
+	margin-top: 60px;
+}
+
+.h_slogan_title{
+	color:#fff;
+	font-size: 40px;
+	text-transform: uppercase;
+
+}
+
+.h_slogan_btn{
+
+	color:#fff;
+	text-decoration: none;
+	padding: 15px 20px;
+	background: pink;
+
+}
+
+.container{
+	width: 90%;
+	margin:auto;
+	position:relative;
+	z-index: 999;
+}
+
+.header_navbar_logo_titre{
+
+	color:white;
+	font-size: 50px;
+	font-family:'Nunito', sans-serif;
+	padding: 78px 0 0 0 ;
+
+}
+
+.header_navbar_menu_link{
+	
+	margin-left: 40px;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2em; 
+
+  }

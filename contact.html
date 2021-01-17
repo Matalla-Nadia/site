@@ -1,0 +1,47 @@
+<!DOCTYPE>
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="contact.css">
+	<link href = "https://fonts.googleapis.com/css2? family = Nunito: wght @ 200 & display = swap" rel = "feuille de style">
+	<link href = "https://fonts.googleapis.com/css2? family = Lobster & display = swap" rel = "feuille de style ">
+
+	<title>Contactez-nous</title>
+</head>
+<body>
+
+	<h1>Formulaire de contact</h1>
+
+  <div class="mb-3 row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="email@example.com">
+    </div>
+  </div>
+  <div class="mb-3 row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="inputPassword">
+
+    </div>
+  </div>
+
+
+  <script type="text/javascript">								 /*PB*/
+  	
+  	var password= prompt("saisir votre mots de pass");
+
+  	while (15<password) {
+  		console.log(password)
+  		alert("Votre mots de passe doit contenir au moin 15 caractères");
+  	}
+
+  </script>
+
+
+</body>
+</html>
